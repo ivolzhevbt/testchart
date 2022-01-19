@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: testconfigmap
+data:
+  chart_release_name: {{.Release.Name}}
+  subchart_release_name: {{include "subchart.releaseName" .}}

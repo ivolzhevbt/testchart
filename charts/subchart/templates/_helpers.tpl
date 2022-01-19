@@ -1,0 +1,1 @@
+{{define "subchart.releaseName"}}{{.Release.Name}}{{end}}
